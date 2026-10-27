@@ -2,10 +2,10 @@ from typing import override
 
 from ase import Atoms
 
-from graphatoms.enterpoint.runner.general.rxngen import (
+from rxnetgen.runner.general.rxngen import (
     ReactionNetworkGenerator as _Rxngen,
 )
-from graphatoms.enterpoint.runner.v2.general._expl import ExplorationBase
+from rxnetgen.runner.v2.general._expl import ExplorationBase
 from graphatoms.system.system import System
 
 

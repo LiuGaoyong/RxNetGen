@@ -5,7 +5,7 @@ from ase import Atoms
 from ase.cluster import Octahedron
 from ase.io import read
 
-from graphatoms.reaction import Adsorption, Desorption, EventBase, Reaction
+from rxnetgen.reaction import Adsorption, Desorption, EventBase, Reaction
 from graphatoms.system import Cluster, Gas, SysGraph, System
 
 this_dir = Path(__file__).parent

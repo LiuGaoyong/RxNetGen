@@ -10,7 +10,7 @@ from ase.calculators.calculator import Calculator
 from ase.cluster import Octahedron
 from ase.io import read, write
 
-from graphatoms.utils.adsorption import (
+from rxnetgen.utils.adsorption import (
     AdsorptionABC,
     DirectAdsorption,
     Helper,

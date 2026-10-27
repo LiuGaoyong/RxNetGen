@@ -5,7 +5,7 @@ import weakref
 from collections.abc import Callable
 from typing import TYPE_CHECKING, Any, override
 
-from graphatoms.enterpoint.parallel._base import ParallelExecutorABC
+from rxnetgen.parallel._base import ParallelExecutorABC
 
 try:
     os.environ["RAY_DEDUP_LOGS"] = "0"
@@ -27,7 +27,7 @@ if TYPE_CHECKING:
 # postponed evaluation the `-> ray.ObjectRef` annotations below would be
 # evaluated eagerly at class-definition time and raise
 # `AttributeError: 'NoneType' object has no attribute 'ObjectRef'`, which makes
-# `import graphatoms.enterpoint.parallel` (and therefore `graphatoms-run`)
+# `import rxnetgen.parallel` (and therefore `rxnetgen-run`)
 # fail on any installation that does not happen to have ray installed.
 
 

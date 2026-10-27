@@ -15312,12 +15312,20 @@ packages:
   - numpy>=2,<3
   - scipy>=1.10,<2
   - scikit-learn>=1.5
+  - pandas
+  - pyarrow
+  - pydantic>=2.10
+  - igraph>=0.11
+  - array-api-compat>=1.10
+  - array-api-extra>=0.10
   - sqlalchemy
   - sqlmodel
   - typing-extensions
   - joblib
   - executorlib
   - hydra-core
+  - omegaconf
+  - matplotlib
   - typer
   - loguru
   requires_python: '>=3.12'

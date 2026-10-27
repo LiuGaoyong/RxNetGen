@@ -6,8 +6,8 @@ import pytest
 from ase.cluster import Octahedron
 from hydra import compose, initialize
 
-from graphatoms.enterpoint.config import CONFIG_DIR, Config
-from graphatoms.enterpoint.runner.common._helper import (
+from rxnetgen.config import CONFIG_DIR, Config
+from rxnetgen.runner.common._helper import (
     HelperException,
     helper_dimer,
     helper_optimization,

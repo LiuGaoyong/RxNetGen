@@ -3,8 +3,8 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from graphatoms.enterpoint.network import MetaData
-from graphatoms.enterpoint.network._metadata import _MetaDataTable
+from rxnetgen.network import MetaData
+from rxnetgen.network._metadata import _MetaDataTable
 
 DATA_DIR = Path(__file__).parent.parent / "tests-datasets" / "for-rxnet"
 

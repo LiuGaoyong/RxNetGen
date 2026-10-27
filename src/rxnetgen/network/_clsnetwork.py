@@ -7,18 +7,18 @@ from typing import Literal, Self, override
 import numpy as np
 from ase import Atoms
 
-from graphatoms.enterpoint.config import Config, EventConfig
-from graphatoms.enterpoint.network._metadata import MetaData
-from graphatoms.enterpoint.network._metadata import (
+from rxnetgen.config import Config, EventConfig
+from rxnetgen.network._metadata import MetaData
+from rxnetgen.network._metadata import (
     _MetaDataBasic as MetaDataBasic,
 )
-from graphatoms.enterpoint.network._recorder import (
+from rxnetgen.network._recorder import (
     OldNewRecorder4Confidence,
     Recorder,
     RecorderInfo,
 )
-from graphatoms.enterpoint.network._scheduler import Scheduler
-from graphatoms.reaction import (
+from rxnetgen.network._scheduler import Scheduler
+from rxnetgen.reaction import (
     Adsorption,
     Desorption,
     EventBase,
@@ -27,7 +27,7 @@ from graphatoms.reaction import (
 )
 from graphatoms.system import Cluster, Gas, SysGraph, System
 from graphatoms.system.database import DatabaseABC, get_db
-from graphatoms.utils.bytestool import atomic_write, atomic_write_text
+from rxnetgen.utils.bytestool import atomic_write, atomic_write_text
 
 __all__ = [
     "MetaData",

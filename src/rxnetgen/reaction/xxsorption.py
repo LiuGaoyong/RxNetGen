@@ -7,7 +7,7 @@ from ase.units import _amu as atomic_mass_unit
 from ase.units import _e as electron_charge
 from pydantic import PositiveFloat, model_validator
 
-from graphatoms.reaction._event import EventBase, kB
+from rxnetgen.reaction._event import EventBase, kB
 
 
 class Adsorption(EventBase):

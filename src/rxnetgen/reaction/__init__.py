@@ -1,8 +1,8 @@
 # ruff: noqa: F401
 
-from graphatoms.reaction._event import EventBase, EventInfo
-from graphatoms.reaction.reaction import Reaction, ReactionER, ReactionLH
-from graphatoms.reaction.xxsorption import Adsorption, Desorption
+from rxnetgen.reaction._event import EventBase, EventInfo
+from rxnetgen.reaction.reaction import Reaction, ReactionER, ReactionLH
+from rxnetgen.reaction.xxsorption import Adsorption, Desorption
 
 __all__ = [
     "EventBase",

@@ -8,10 +8,10 @@ import pandas as pd
 from pydantic import BaseModel, NonNegativeFloat, model_validator
 
 from graphatoms.dataclasses import OurBaseModel
-from graphatoms.enterpoint.config import Config, EventConfig
-from graphatoms.reaction import EventBase, EventInfo
+from rxnetgen.config import Config, EventConfig
+from rxnetgen.reaction import EventBase, EventInfo
 from graphatoms.system.bonds import matchmode2nmatch
-from graphatoms.utils.bytestool import atomic_write
+from rxnetgen.utils.bytestool import atomic_write
 
 __all__ = ["MetaData"]
 

@@ -1,8 +1,8 @@
 from ase import Atoms
 
-from graphatoms.enterpoint.parallel import executor_map
-from graphatoms.enterpoint.runner.general._expl import ExplorationBase as _Base
-from graphatoms.enterpoint.runner.v2._helperv2 import (
+from rxnetgen.parallel import executor_map
+from rxnetgen.runner.general._expl import ExplorationBase as _Base
+from rxnetgen.runner.v2._helperv2 import (
     HelperAdsorptionResult,
     HelperDimerResult,
     HelperResult,

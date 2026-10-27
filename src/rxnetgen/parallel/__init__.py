@@ -3,14 +3,14 @@ from typing import Any
 
 from joblib import Parallel, delayed
 
-from graphatoms.enterpoint.parallel._base import (
+from rxnetgen.parallel._base import (
     MultiprocessingExecutor,
     ParallelExecutorABC,
     SerialExecutor,
 )
-from graphatoms.enterpoint.parallel._dask import DaskExecutor
-from graphatoms.enterpoint.parallel._executorlib import ExecutorLibExecutor
-from graphatoms.enterpoint.parallel._ray import RayExecutor, ray
+from rxnetgen.parallel._dask import DaskExecutor
+from rxnetgen.parallel._executorlib import ExecutorLibExecutor
+from rxnetgen.parallel._ray import RayExecutor, ray
 
 __all__ = [
     "SerialExecutor",

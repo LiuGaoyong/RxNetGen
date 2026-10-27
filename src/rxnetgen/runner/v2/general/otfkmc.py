@@ -2,8 +2,8 @@ from typing import override
 
 from ase import Atoms
 
-from graphatoms.enterpoint.runner.general.otfkmc import OTFKMC as _OTFKMC
-from graphatoms.enterpoint.runner.v2.general._expl import ExplorationBase
+from rxnetgen.runner.general.otfkmc import OTFKMC as _OTFKMC
+from rxnetgen.runner.v2.general._expl import ExplorationBase
 from graphatoms.system.system import System
 
 

@@ -11,13 +11,13 @@ from ase.io import read
 from ase.io.trajectory import TrajectoryWriter
 from pydantic import BaseModel
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.runner.common._helper import (
+from rxnetgen.config import Config
+from rxnetgen.runner.common._helper import (
     helper_apply,
     helper_match,
 )
-from graphatoms.reaction import Adsorption, Desorption, Reaction
-from graphatoms.utils.bytestool import atomic_write
+from rxnetgen.reaction import Adsorption, Desorption, Reaction
+from rxnetgen.utils.bytestool import atomic_write
 
 from ._expl import ExplorationBase
 

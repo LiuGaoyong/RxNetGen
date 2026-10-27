@@ -4,8 +4,8 @@ from tempfile import TemporaryDirectory
 import pytest
 from hydra import compose, initialize
 
-from graphatoms.enterpoint.config import CONFIG_DIR, Config
-from graphatoms.enterpoint.runner.common import helper_dimer
+from rxnetgen.config import CONFIG_DIR, Config
+from rxnetgen.runner.common import helper_dimer
 from graphatoms.system import Cluster
 
 this_dir = Path(__file__).parent

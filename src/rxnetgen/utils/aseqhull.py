@@ -2,7 +2,7 @@ import numpy as np
 from ase import Atoms
 from scipy.spatial import Voronoi
 
-from graphatoms.utils.adsorption import _get_1order_nbr
+from rxnetgen.utils.adsorption import _get_1order_nbr
 
 
 def get_voronoi_lst(

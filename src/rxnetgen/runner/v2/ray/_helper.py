@@ -5,14 +5,14 @@ import numpy as np
 import ray
 from ray.actor import ActorProxy
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.network import ReactionNetwork
-from graphatoms.enterpoint.runner.common._base import (
+from rxnetgen.config import Config
+from rxnetgen.network import ReactionNetwork
+from rxnetgen.runner.common._base import (
     LOGURU_FORMAT,
     Core,
     Logger,
 )
-from graphatoms.reaction import (
+from rxnetgen.reaction import (
     Adsorption,
     Desorption,
     EventBase,

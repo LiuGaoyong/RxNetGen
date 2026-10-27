@@ -1,7 +1,7 @@
-"""Integration tests for the ``graphatoms.parallel`` execution framework.
+"""Integration tests for the ``rxnetgen.parallel`` execution framework.
 
 Tests cover serial, multiprocessing, ray, dask, and executorlib backends
-through the uniform :class:`~graphatoms.parallel.base.BaseExecutor`
+through the uniform :class:`~rxnetgen.parallel.base.BaseExecutor`
 interface, plus the ``as_completed`` / ``wait`` utility functions and
 the executor-level ``cancel`` method.
 """
@@ -26,7 +26,7 @@ sys.path.append(this_dir)
 import pytest  # noqa: E402
 from conftest import return_big_object  # type: ignore  # noqa: E402
 
-from graphatoms.enterpoint.parallel import (  # noqa: E402
+from rxnetgen.parallel import (  # noqa: E402
     get_executor,
     get_executor_map,
 )

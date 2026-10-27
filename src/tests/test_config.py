@@ -5,7 +5,7 @@ import pytest
 from hydra import compose, initialize
 from omegaconf import OmegaConf
 
-from graphatoms.enterpoint.config import CONFIG_DIR, Config
+from rxnetgen.config import CONFIG_DIR, Config
 
 this_dir = Path(__file__).parent
 

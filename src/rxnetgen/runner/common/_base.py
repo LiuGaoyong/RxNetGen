@@ -21,13 +21,13 @@ from ase.units import kB as _boltzmann_constant
 from loguru._logger import Core, Logger
 from omegaconf import DictConfig, OmegaConf
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.config.atoms import AseReadAtomsConfig
-from graphatoms.enterpoint.network import ReactionNetwork
-from graphatoms.enterpoint.parallel import get_executor
+from rxnetgen.config import Config
+from rxnetgen.config.atoms import AseReadAtomsConfig
+from rxnetgen.network import ReactionNetwork
+from rxnetgen.parallel import get_executor
 from graphatoms.system import Cluster, Gas, System
-from graphatoms.utils.bytestool import atomic_write_text
-from graphatoms.utils.parser import hydra_parse
+from rxnetgen.utils.bytestool import atomic_write_text
+from rxnetgen.utils.parser import hydra_parse
 
 from ._helper import helper_optimization
 

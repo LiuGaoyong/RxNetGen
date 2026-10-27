@@ -10,7 +10,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from typing import Any
 
-from graphatoms.enterpoint.parallel._base import ParallelExecutorABC
+from rxnetgen.parallel._base import ParallelExecutorABC
 
 try:
     from executorlib import (

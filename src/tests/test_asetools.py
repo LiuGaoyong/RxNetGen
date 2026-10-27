@@ -3,7 +3,7 @@ from ase.build import add_adsorbate, fcc100
 from ase.calculators.emt import EMT
 from ase.constraints import FixAtoms
 
-from graphatoms.utils.asetools import call_dimer, call_dimer_displace
+from rxnetgen.utils.asetools import call_dimer, call_dimer_displace
 
 
 def test_dimer_method() -> None:

@@ -6,16 +6,16 @@ import numpy as np
 from ase import Atoms
 from ase.calculators.calculator import Calculator
 
-from graphatoms.enterpoint.runner.common import (
+from rxnetgen.runner.common import (
     RunnerABC,
     helper_adsorption,
     helper_dimer,
     helper_optimization,
 )
 from graphatoms.system import Cluster, Gas, SysGraph, System
-from graphatoms.utils import asetools
-from graphatoms.utils.adsorption import Helper
-from graphatoms.utils.parser import hydra_parse
+from rxnetgen.utils import asetools
+from rxnetgen.utils.adsorption import Helper
+from rxnetgen.utils.parser import hydra_parse
 
 
 class ExplorationBase(RunnerABC):

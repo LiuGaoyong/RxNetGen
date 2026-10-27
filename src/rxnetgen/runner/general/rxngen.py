@@ -8,8 +8,8 @@ from typing import override
 from ase import Atoms
 
 from graphatoms.dataclasses import OurBaseModel
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.runner.common import helper_apply
+from rxnetgen.config import Config
+from rxnetgen.runner.common import helper_apply
 from graphatoms.system import System
 
 from ._expl import ExplorationBase

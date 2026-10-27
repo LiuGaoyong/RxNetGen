@@ -6,7 +6,7 @@ import typer
 from ase import Atoms
 from ase.visualize import view as _ase_view
 
-from graphatoms.enterpoint.network import ReactionNetwork as Net
+from rxnetgen.network import ReactionNetwork as Net
 from graphatoms.system import SysGraph
 
 __p_help__ = "Path to the network directory."

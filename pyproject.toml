@@ -7,9 +7,9 @@ Homepage = "https://github.com/LiuGaoyong/RxNetGen"
 Repository = "https://github.com/LiuGaoyong/RxNetGen"
 Issues = "https://github.com/LiuGaoyong/RxNetGen/issues/"
 [project.scripts]
-rxnetgen-config = "rxnetgen.enterpoint.config:print_config"
-rxnetgen-network = "rxnetgen.enterpoint.network:main"
-rxnetgen-run = "rxnetgen.enterpoint.runner:run"
+rxnetgen-config = "rxnetgen.config:print_config"
+rxnetgen-network = "rxnetgen.network:main"
+rxnetgen-run = "rxnetgen.runner:run"
 [project]
 name = "rxnetgen"
 version = "0.0.1"
@@ -41,6 +41,12 @@ dependencies = [
     "numpy>=2,<3",
     "scipy>=1.10,<2",
     "scikit-learn>=1.5",
+    "pandas",
+    "pyarrow",
+    "pydantic>=2.10",
+    "igraph>=0.11",
+    "array-api-compat>=1.10",
+    "array-api-extra>=0.10",
     "sqlalchemy",
     "sqlmodel",
     "typing-extensions",
@@ -48,6 +54,8 @@ dependencies = [
     "joblib",
     "executorlib",
     "hydra-core",
+    "omegaconf",
+    "matplotlib",
     "typer",
     "loguru",
 ]

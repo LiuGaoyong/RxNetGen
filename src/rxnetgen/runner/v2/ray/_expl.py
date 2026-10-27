@@ -1,9 +1,9 @@
 import ray
 from ase import Atoms
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.network import ReactionNetwork
-from graphatoms.enterpoint.runner.common._base import RunnerABC
+from rxnetgen.config import Config
+from rxnetgen.network import ReactionNetwork
+from rxnetgen.runner.common._base import RunnerABC
 from graphatoms.system import System
 
 from ._helper import (

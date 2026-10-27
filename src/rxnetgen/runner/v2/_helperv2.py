@@ -12,19 +12,19 @@ import numpy as np
 from ase import Atoms
 from ase.calculators.calculator import Calculator
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.network import ReactionNetwork
-from graphatoms.enterpoint.runner.common import _helper as funcs
-from graphatoms.enterpoint.runner.common._base import (
+from rxnetgen.config import Config
+from rxnetgen.network import ReactionNetwork
+from rxnetgen.runner.common import _helper as funcs
+from rxnetgen.runner.common._base import (
     LOGURU_FORMAT,
     LOGURU_FORMAT_LENGTH,
     Core,
     Logger,
 )
-from graphatoms.reaction import Adsorption, Desorption, Reaction
+from rxnetgen.reaction import Adsorption, Desorption, Reaction
 from graphatoms.system import Cluster, Gas, System
-from graphatoms.utils.asetools import call_dimer_displace
-from graphatoms.utils.parser import hydra_parse
+from rxnetgen.utils.asetools import call_dimer_displace
+from rxnetgen.utils.parser import hydra_parse
 
 __all__ = [
     "helper_dimer",

@@ -1,13 +1,12 @@
+# ruff: noqa: E501
 """Tests for RayExecutor.submit cache mechanism."""
-
-# ruff: noqa: E501"""Tests for RayExecutor.submit cache mechanism."""
 import gc
 import weakref
 
 import pytest
 
-import graphatoms.enterpoint.parallel._ray as _ray_module
-from graphatoms.enterpoint.parallel._ray import RayExecutor
+import rxnetgen.parallel._ray as _ray_module
+from rxnetgen.parallel._ray import RayExecutor
 
 
 class FakeObjectRef:

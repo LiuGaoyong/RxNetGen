@@ -13,15 +13,15 @@ from ase import Atoms
 from ase.calculators.calculator import Calculator
 from ase.io.extxyz import write_xyz as write_extxyz
 
-from graphatoms.enterpoint.config import Config
-from graphatoms.enterpoint.network import ReactionNetwork
-from graphatoms.reaction import Adsorption, Desorption, Reaction
+from rxnetgen.config import Config
+from rxnetgen.network import ReactionNetwork
+from rxnetgen.reaction import Adsorption, Desorption, Reaction
 from graphatoms.system import Cluster, Gas, SysGraph, System
 from graphatoms.system.atoms import Structure
-from graphatoms.utils import asetools
-from graphatoms.utils.adsorption import Helper
-from graphatoms.utils.bytestool import atomic_write
-from graphatoms.utils.parser import hydra_parse
+from rxnetgen.utils import asetools
+from rxnetgen.utils.adsorption import Helper
+from rxnetgen.utils.bytestool import atomic_write
+from rxnetgen.utils.parser import hydra_parse
 
 from ._errors import CheckVibrationFailed, HelperException, OptimizationFailed
 

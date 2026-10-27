@@ -7,16 +7,16 @@ import pytest
 from hydra import compose, initialize
 from omegaconf import OmegaConf
 
-from graphatoms.enterpoint.config import CONFIG_DIR, Config
-from graphatoms.enterpoint.runner import (  # noqa: F401
+from rxnetgen.config import CONFIG_DIR, Config
+from rxnetgen.runner import (  # noqa: F401
     OnTheFlyKMC,
     ReactionNetworkGenerator,
 )
-from graphatoms.enterpoint.runner.common._base import RunnerABC
-from graphatoms.enterpoint.runner.v2.general.otfkmc import (
+from rxnetgen.runner.common._base import RunnerABC
+from rxnetgen.runner.v2.general.otfkmc import (
     OTFKMC as OnTheFlyKMC_v2,  # noqa: F401
 )
-from graphatoms.enterpoint.runner.v2.general.rxngen import (
+from rxnetgen.runner.v2.general.rxngen import (
     ReactionNetworkGenerator as ReactionNetworkGenerator_v2,  # noqa: F401
 )
 

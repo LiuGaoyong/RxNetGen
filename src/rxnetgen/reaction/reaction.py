@@ -2,7 +2,7 @@ from typing import Self
 
 from pydantic import model_validator
 
-from graphatoms.reaction._event import EventBase
+from rxnetgen.reaction._event import EventBase
 
 
 class ReactionBase(EventBase):

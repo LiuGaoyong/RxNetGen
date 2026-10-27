@@ -23,9 +23,9 @@ from scipy.spatial.transform import Rotation
 from graphatoms.geometry import neighbor_list
 from graphatoms.geometry.sample import fibonacci_lattice
 from graphatoms.system import Cluster, Gas, System
-from graphatoms.utils.asetools import call_optimization as optimize
-from graphatoms.utils.bytestool import atomic_write
-from graphatoms.utils.rdutils import rdmol2ase, smiles2rdmol
+from rxnetgen.utils.asetools import call_optimization as optimize
+from rxnetgen.utils.bytestool import atomic_write
+from rxnetgen.utils.rdutils import rdmol2ase, smiles2rdmol
 
 matplotlib.use("Agg")
 

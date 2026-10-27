@@ -2,9 +2,9 @@ from pathlib import Path
 
 from hydra import compose, initialize
 
-from graphatoms.enterpoint.config import CONFIG_DIR, Config
-from graphatoms.enterpoint.runner.common._helper import helper_dimer
-from graphatoms.reaction import Reaction
+from rxnetgen.config import CONFIG_DIR, Config
+from rxnetgen.runner.common._helper import helper_dimer
+from rxnetgen.reaction import Reaction
 from graphatoms.system import Cluster
 
 this_dir = Path(__file__).parent

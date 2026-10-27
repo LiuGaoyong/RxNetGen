@@ -1,4 +1,4 @@
-from graphatoms.enterpoint.runner.general.otfkmc import OTFKMCInfo
+from rxnetgen.runner.general.otfkmc import OTFKMCInfo
 
 from ._expl import ExplorationRayBase
 
