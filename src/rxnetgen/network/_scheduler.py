@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from graphatoms.dataclasses._numpydantic import NDArray
 from graphatoms.system import SysGraph  # type: ignore
-from rxnetgen.utils.bytestool import atomic_write
+from graphatoms.utils.bytestool import atomic_write
 
 
 class Scheduler(BaseModel):

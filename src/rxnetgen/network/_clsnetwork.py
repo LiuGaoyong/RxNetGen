@@ -27,7 +27,7 @@ from rxnetgen.reaction import (
 )
 from graphatoms.system import Cluster, Gas, SysGraph, System
 from graphatoms.system.database import DatabaseABC, get_db
-from rxnetgen.utils.bytestool import atomic_write, atomic_write_text
+from graphatoms.utils.bytestool import atomic_write, atomic_write_text
 
 __all__ = [
     "MetaData",

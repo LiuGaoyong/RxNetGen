@@ -24,7 +24,7 @@ from rxnetgen.runner.common._base import (
 from rxnetgen.reaction import Adsorption, Desorption, Reaction
 from graphatoms.system import Cluster, Gas, System
 from rxnetgen.utils.asetools import call_dimer_displace
-from rxnetgen.utils.parser import hydra_parse
+from graphatoms.utils.parser import hydra_parse
 
 __all__ = [
     "helper_dimer",

@@ -26,8 +26,8 @@ from rxnetgen.config.atoms import AseReadAtomsConfig
 from rxnetgen.network import ReactionNetwork
 from rxnetgen.parallel import get_executor
 from graphatoms.system import Cluster, Gas, System
-from rxnetgen.utils.bytestool import atomic_write_text
-from rxnetgen.utils.parser import hydra_parse
+from graphatoms.utils.bytestool import atomic_write_text
+from graphatoms.utils.parser import hydra_parse
 
 from ._helper import helper_optimization
 

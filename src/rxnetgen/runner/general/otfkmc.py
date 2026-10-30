@@ -17,7 +17,7 @@ from rxnetgen.runner.common._helper import (
     helper_match,
 )
 from rxnetgen.reaction import Adsorption, Desorption, Reaction
-from rxnetgen.utils.bytestool import atomic_write
+from graphatoms.utils.bytestool import atomic_write
 
 from ._expl import ExplorationBase
 

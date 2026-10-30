@@ -15,7 +15,7 @@ from rxnetgen.runner.common import (
 from graphatoms.system import Cluster, Gas, SysGraph, System
 from rxnetgen.utils import asetools
 from rxnetgen.utils.adsorption import Helper
-from rxnetgen.utils.parser import hydra_parse
+from graphatoms.utils.parser import hydra_parse
 
 
 class ExplorationBase(RunnerABC):

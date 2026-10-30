@@ -12,7 +12,7 @@ from pydantic import BaseModel, PositiveFloat, PositiveInt, model_validator
 from graphatoms.dataclasses import OurFrozenModel
 from graphatoms.geometry.rotation import kabsch
 from graphatoms.system import Cluster, Gas, SysGraph, System
-from rxnetgen.utils.bytestool import hash_string
+from graphatoms.utils.bytestool import hash_string
 
 h = _hplanck / _e  # Planck constant in eV
 kB = kB  # Boltzmann constant in eV/K

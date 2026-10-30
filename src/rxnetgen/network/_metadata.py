@@ -11,7 +11,7 @@ from graphatoms.dataclasses import OurBaseModel
 from rxnetgen.config import Config, EventConfig
 from rxnetgen.reaction import EventBase, EventInfo
 from graphatoms.system.bonds import matchmode2nmatch
-from rxnetgen.utils.bytestool import atomic_write
+from graphatoms.utils.bytestool import atomic_write
 
 __all__ = ["MetaData"]
 

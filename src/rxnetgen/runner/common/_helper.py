@@ -20,8 +20,8 @@ from graphatoms.system import Cluster, Gas, SysGraph, System
 from graphatoms.system.atoms import Structure
 from rxnetgen.utils import asetools
 from rxnetgen.utils.adsorption import Helper
-from rxnetgen.utils.bytestool import atomic_write
-from rxnetgen.utils.parser import hydra_parse
+from graphatoms.utils.bytestool import atomic_write
+from graphatoms.utils.parser import hydra_parse
 
 from ._errors import CheckVibrationFailed, HelperException, OptimizationFailed
 
